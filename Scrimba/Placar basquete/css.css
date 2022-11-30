@@ -5,4 +5,44 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+#home {
+    text-align: center;
+    width: 575px;
+    height: 385px;
+    position: relative;
+    background: #1b244a;
+}
+
+#guest {
+    text-align: center;
+    width: 575px;
+    height: 385px;
+    position: relative;
+    background: #1b244a;
+
+}
+
+#placar1 {
+    font-family: 'Cursed Timer ULiL';
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+#placarguest {
+    font-family: 'Cursed Timer ULiL';
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
 }
