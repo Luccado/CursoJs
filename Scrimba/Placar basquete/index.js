@@ -23,11 +23,21 @@ function add3h() {
 //Guest -----
 
 let placarguest = document.getElementById("placarguest");
-console.log(Placar2);
+console.log(placarguest);
 placarguest = 0;
 
-console.log(plcar2)
 function add1g(){
-    placar2 = placar2 + 1;
-    document.getElementById("placarguest").textContent = placar2
+    placarguest = placarguest + 1;
+    document.getElementById("placarguest").textContent = placarguest
+}
+
+function add2g(){
+    placarguest = placarguest +2
+    console.log(placarguest)
+    document.getElementById("placarguest").textContent = placarguest
+}
+
+function add3g(){
+    placarguest = placarguest +3
+    document.getElementById("placarguest").textContent = placarguest
 }
