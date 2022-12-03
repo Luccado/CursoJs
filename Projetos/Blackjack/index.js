@@ -1,10 +1,11 @@
 let firstCard = 10;
-let secondCard = 12;
+let secondCard = 1;
 let hasBlackJack = false
 let isAlive = true
 let message = "";
 
 let sum = firstCard + secondCard;
+let messageEl = document.getElementById("message-el");
 
 /*if (sum < 21) {
     console.log("Do you want to draw a new card?")
@@ -14,21 +15,25 @@ let sum = firstCard + secondCard;
     console.log("Perdeu mané");
 }*/
 
-if (sum <= 20) {
-    message = "Do you want to draw a new card? 🙂"
-}
+function startGame() {
 
-else if (sum === 21) {
-    message = "Wohoo! You've got Blackjack! 🥳"
-    hasBlackJack = true
-}
 
-else {
-    message = "You're out of the game! 😭"
-    isAlive = false
-}
+    if (sum <= 20) {
+        message = "Do you want to draw a new card?"
+    }
 
+    else if (sum === 21) {
+        message = "Wohoo! You've got Blackjack!"
+        hasBlackJack = true
+    }
+
+    else {
+        message = "You're out of the game!"
+        isAlive = false
+    }
+    document.getElementById("message-el").textContent = message //gambiarra - o certo seira "messageEl.textContent = message"
+
+}
 // CASH OUT!
 //console.log(hasBlackJack);
 //console.log(isAlive)
-//console.log(message);
