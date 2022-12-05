@@ -1,11 +1,13 @@
 let firstCard = 10;
-let secondCard = 1;
+let secondCard = 12;
 let hasBlackJack = false
 let isAlive = true
 let message = "";
 
 let sum = firstCard + secondCard;
 let messageEl = document.getElementById("message-el");
+//let sumEl = document.getElementById("sum-el");
+let sumEl = document.querySelector("#sum-el");
 
 /*if (sum < 21) {
     console.log("Do you want to draw a new card?")
@@ -17,6 +19,7 @@ let messageEl = document.getElementById("message-el");
 
 function startGame() {
 
+    sumEl.textContent = "Soma: " + sum
 
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
