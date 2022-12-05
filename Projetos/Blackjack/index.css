@@ -16,7 +16,7 @@ h1 {
 
 }
 
-#startGamebtn {
+button {
     color: #016f32;
     width: 150px;
     background: goldenrod;
@@ -25,5 +25,6 @@ h1 {
     padding-bottom: 5px;
     font-weight: bold;
     border-radius: 2px;
+    margin-bottom: 4px;
 
 }
