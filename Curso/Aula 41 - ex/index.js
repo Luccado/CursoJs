@@ -7,10 +7,9 @@
 // Use a função com número de 0 a 100 - while i <= 100
 
 let x = 3
-function FizzBuzz(x) {
-    if (x / 3 % 1) {
-        console.log('Fizz')
-    }
+function FizzBuzz(numero) {
+    if (n % 3 === 0) return 'Fizz';
+    return
 }
 
 console.log(FizzBuzz(3))
