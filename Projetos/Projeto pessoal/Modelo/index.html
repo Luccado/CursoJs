@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/CursoJs/Projetos/Projeto pessoal/Modelo/assets/css/styles.css">
+<link rel="stylesheet" href="/Projetos/Projeto pessoal/Modelo/assets/css/styles.css">
 </head>
 <body>
 
@@ -16,12 +16,53 @@
   </a>
 </div>
 
+<div class="slider">
+  <!--Botões para passar-->
+  <div class="slides">
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+
+    <!--Imagens do Slider-->
+    <div class="slide first">
+      <img src="/Projetos/Projeto pessoal/Modelo/family.jpg" alt="Imagem 1">
+    </div>
+    <div class="slide">
+      <img src="/Projetos/Projeto pessoal/Modelo/mindland.png" alt="Imagem 2">
+    </div>
+    <div class="slide">
+      <img src="/Projetos/Projeto pessoal/Modelo/lenna.jpg" alt="Imagem 3">
+    </div>
+    <div class="slide">
+      <img src="/Projetos/Projeto pessoal/Modelo/visão.jpg" alt="Imagem 4">
+    </div>
+
+    <!--Navigation auto-->
+    <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      <div class="auto-btn4"></div>
+    </div>
+
+  </div>
+
+  <div class="manual-navigation">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+  </div>
+
+</div>
+
 <div style="padding-left:16px">
   <h2>Continue</h2>
   <p>Continue</p>
 </div>
 
-<script src="/CursoJs/Projetos/Projeto pessoal/Modelo/assets/js/main.js"></script>
+<script src="/Projetos/Projeto pessoal/Modelo/assets/js/main.js"></script>
 
 </body>
 </html>
