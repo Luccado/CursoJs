@@ -150,3 +150,7 @@ body {
 #radio4:checked ~ .navigation-auto .auto-btn4{
   background-color: #a71fb9;
 }
+
+.container {
+  background-color: #121212;
+}
