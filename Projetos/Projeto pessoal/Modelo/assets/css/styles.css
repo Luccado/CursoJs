@@ -196,4 +196,13 @@ div.teste {
   padding:  20px;
 }
 
-img{width: 100%;}
+img{width: 100%; height: auto;}
+
+.audio {
+place-content: 800px;
+margin: 900px;
+}
+
+#myAudio {
+  text-align: center;
+}
